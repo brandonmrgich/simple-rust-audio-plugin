@@ -164,6 +164,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d193d69bae983fc11a79df82342761dfbf28a99fc8d203dca4c3c1b590948965"
 
 [[package]]
+name = "simple-rust-audio-plugin"
+version = "0.1.0"
+dependencies = [
+ "rand",
+ "vst",
+]
+
+[[package]]
 name = "syn"
 version = "1.0.103"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -172,14 +180,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
-]
-
-[[package]]
-name = "synthy"
-version = "0.1.0"
-dependencies = [
- "rand",
- "vst",
 ]
 
 [[package]]

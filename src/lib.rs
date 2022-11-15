@@ -5,6 +5,11 @@ use rand::Rng;
 use std::borrow::BorrowMut;
 use vst::prelude::*;
 
+
+// For later vst construction
+// https://github.com/free-audio/clap-wrapper
+
+
 // ----------------------------- //
 // 1. Define the plugin struct //
 // ----------------------------- //
